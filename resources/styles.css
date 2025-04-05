@@ -1,0 +1,50 @@
+html{
+
+}
+
+body{
+    background-color: #979aaa;
+    color: #faf0e6;
+}
+
+h1{
+    font-family: Agdasima;
+    color: rgb(00, 80, 80);
+ }
+
+ h2{
+    font-family: Agdasima;
+    color: #faf0e6
+ }
+
+ p{
+    font-family: 'poiret one';
+    color: #faf0e6
+ }
+
+
+.links{
+    width: 100%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.links h2{
+    color: #faf0e6;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: 'poiret one';
+    color: rgb(00, 80, 80);
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+#link{
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #7db8b3;
+    border-radius: 15px;
+}

@@ -1,0 +1,39 @@
+body{
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+h1{
+    background-image: url(css/pattern.jpeg);
+    font-size: 100px;
+    font-weight: bold;
+    color:khaki;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    color: white;
+}
+
+p{
+font-weight: normal;
+
+}
+
+.btitle{
+    background-color: mediumspringgreen;
+}
+
+.ftitle{
+    background-color: lightcoral;
+}
+
+.ptitle{
+    background-color: skyblue;
+}
+
+.price{
+    font-weight: bold;
+    color:blue
+}
