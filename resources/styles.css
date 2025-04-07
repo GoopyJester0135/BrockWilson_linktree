@@ -26,7 +26,7 @@ h1{
 .links{
     width: 100%;
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 }
 
 .links h2{
@@ -42,9 +42,29 @@ h1{
 .links a:hover{
     text-decoration:underline;
 }
-#link{
+.link{
     text-align: center;
     padding: 10px;
     border: 5px solid #7db8b3;
     border-radius: 15px;
+    margin: 10px;
 }
+
+#d{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1{
+        text-align: center;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+} 
