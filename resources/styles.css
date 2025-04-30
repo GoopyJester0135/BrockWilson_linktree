@@ -97,4 +97,16 @@ h1{
         display: flex;
         flex-direction: column;
     }
+    .about_me{
+        margin: 0px 5% 25px 5%;
+        padding: 12px;
+    }
+    
+    
+    .my_social{
+        align-items: center;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
 } 
