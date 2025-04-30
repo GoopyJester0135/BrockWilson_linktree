@@ -36,6 +36,16 @@ h1{
 
 }
 
+.my_social{
+    align-items: center;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my_social a{
+    color: rgb(00, 80, 80);
+}
 
 .link_title{
     text-align: center;
