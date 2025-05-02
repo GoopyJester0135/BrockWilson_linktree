@@ -36,6 +36,18 @@ h1{
 
 }
 
+.about_me h2{
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    background-image: url(me.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 45%;
+}
+
 .my_social{
     align-items: center;
     width: 15%;
